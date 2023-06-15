@@ -17,6 +17,8 @@ public class DataHandler {
         JsonArray responseArray = JsonParser.parseString(responseString).getAsJsonArray();
         return responseArray;
     }
+    
+    //test
 
     public static void VWAPCalc(JsonArray array) {
 
