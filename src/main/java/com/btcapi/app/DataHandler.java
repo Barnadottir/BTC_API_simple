@@ -20,6 +20,10 @@ public class DataHandler {
     
     //test
 
+    public Boolean testMethod(){
+        return null;
+    }
+
     public static void VWAPCalc(JsonArray array) {
 
         double sum_volume_2 = 0.0;
